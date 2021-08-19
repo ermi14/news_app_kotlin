@@ -38,7 +38,8 @@ class SearchNewsFragment: Fragment(R.layout.fragment_search_news) {
             }
 
             findNavController().navigate(
-                R.id.action_searchNewsFragment_to_articleFragment2
+                R.id.action_searchNewsFragment_to_articleFragment2,
+                bundle
             )
         }
 
