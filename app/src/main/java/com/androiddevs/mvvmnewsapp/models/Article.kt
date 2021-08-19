@@ -11,7 +11,7 @@ data class Article(
         autoGenerate = true
     )
     var id: Int? = null,
-    val author: Any,
+    val author: String,
     val content: String,
     val description: String,
     val publishedAt: String,
