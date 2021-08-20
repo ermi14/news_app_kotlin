@@ -36,7 +36,7 @@ class NewsViewModel(
     var oldSearchQuery:String? = null
 
     init {
-        getBreakingNews("ET")
+        getBreakingNews("US")
     }
 
     fun getBreakingNews(countryCode: String) = viewModelScope.launch {
